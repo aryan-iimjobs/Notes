@@ -14,6 +14,8 @@
 		DBCA80A42407909100D0E2C4 /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBCA80A22407909100D0E2C4 /* Notes.xcdatamodeld */; };
 		DBCA80A62407909300D0E2C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCA80A52407909300D0E2C4 /* Assets.xcassets */; };
 		DBCA80A92407909300D0E2C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCA80A72407909300D0E2C4 /* LaunchScreen.storyboard */; };
+		DBCA80B22407A04500D0E2C4 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA80B12407A04500D0E2C4 /* FloatingButton.swift */; };
+		DBCA80B52407A6B200D0E2C4 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA80B42407A6B200D0E2C4 /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DBCA80A52407909300D0E2C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBCA80A82407909300D0E2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBCA80AA2407909300D0E2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCA80B12407A04500D0E2C4 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		DBCA80B42407A6B200D0E2C4 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 		DBCA80982407909100D0E2C4 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				DBCA80B02407A00100D0E2C4 /* Extensions */,
 				DBCA80992407909100D0E2C4 /* AppDelegate.swift */,
 				DBCA809B2407909100D0E2C4 /* SceneDelegate.swift */,
 				DBCA809D2407909100D0E2C4 /* ViewController.swift */,
+				DBCA80B42407A6B200D0E2C4 /* InputViewController.swift */,
 				DBCA809F2407909100D0E2C4 /* Main.storyboard */,
 				DBCA80A52407909300D0E2C4 /* Assets.xcassets */,
 				DBCA80A72407909300D0E2C4 /* LaunchScreen.storyboard */,
@@ -68,6 +74,14 @@
 				DBCA80A22407909100D0E2C4 /* Notes.xcdatamodeld */,
 			);
 			path = Notes;
+			sourceTree = "<group>";
+		};
+		DBCA80B02407A00100D0E2C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DBCA80B12407A04500D0E2C4 /* FloatingButton.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +157,8 @@
 			files = (
 				DBCA809E2407909100D0E2C4 /* ViewController.swift in Sources */,
 				DBCA809A2407909100D0E2C4 /* AppDelegate.swift in Sources */,
+				DBCA80B22407A04500D0E2C4 /* FloatingButton.swift in Sources */,
+				DBCA80B52407A6B200D0E2C4 /* InputViewController.swift in Sources */,
 				DBCA809C2407909100D0E2C4 /* SceneDelegate.swift in Sources */,
 				DBCA80A42407909100D0E2C4 /* Notes.xcdatamodeld in Sources */,
 			);
